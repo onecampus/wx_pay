@@ -5,11 +5,11 @@ require "wx_pay/version"
 Gem::Specification.new do |s|
   s.name          = "wx_pay"
   s.version       = WxPay::VERSION
-  s.authors       = ["Jasl"]
-  s.email         = ["jasl9187@hotmail.com"]
-  s.homepage      = "https://github.com/jasl/wx_pay"
-  s.summary       = "An unofficial simple wechat pay gem"
-  s.description   = "An unofficial simple wechat pay gem"
+  s.authors       = ["Jasl, flowerwrong"]
+  s.email         = ["flowerwrong@hotmail.com"]
+  s.homepage      = "https://github.com/onecampus/wx_pay"
+  s.summary       = "An unofficial simple wechat pay gem."
+  s.description   = "An unofficial simple wechat pay gem, use it."
   s.license       = "MIT"
 
   s.require_paths = ["lib"]

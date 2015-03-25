@@ -7,16 +7,10 @@ Please read official document first: <https://mp.weixin.qq.com/paymch/readtempla
 
 ## Installation
 
-Add this line to your Gemfile:
+Add development version:
 
 ```ruby
-gem 'wx_pay'
-```
-
-or development version
-
-```ruby
-gem 'wx_pay', :github => 'jasl/wxpay'
+gem 'wx_pay', :github => 'onecampus/wx_pay'
 ```
 
 And then execute:
