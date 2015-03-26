@@ -15,11 +15,15 @@ module WxPay
 
       check_required_options(params, INVOKE_UNIFIEDORDER_REQUIRED_FIELDS)
 
-      r = invoke_remote("#{GATEWAY_URL}/unifiedorder", make_payload(params))
+      payload = make_payload(params)
+
+      # yield payload if block_given?
+
+      r = invoke_remote("#{GATEWAY_URL}/unifiedorder", payload)
 
       yield r if block_given?
 
-      r
+      { r: r, payload: payload }
     end
 
     private
